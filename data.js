@@ -1,3 +1,24 @@
+const USERS = [
+  {
+    name: "USER 1",
+    id: 1,
+  },
+
+  {
+    name: "USER 2",
+    id: 2,
+  },
+  {
+    name: "USER 3",
+    id: 3,
+  },
+
+  {
+    name: "USER 4",
+    id: 4,
+  },
+];
+
 export function getUserIDs() {
   return ["1", "2", "3", "4"];
 }
